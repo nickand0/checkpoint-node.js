@@ -14,6 +14,7 @@ function generateRandomPassword() {
   console.log('Mot de passe généré:', password)
 }
 
+//appelle de la fonction
 generateRandomPassword()
 
 
