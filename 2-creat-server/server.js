@@ -7,6 +7,7 @@ var server = http.createServer(function(request,response){
     response.end('<h1>Hello Node!!!!</h1>\n')
 })
 
+//ecoute avec le port 3000
 server.listen(3000,'localhost',function (){
     console.log(`Server running at http://localhost:3000/`)
 })
