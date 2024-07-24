@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
         }
   });
 
-
+//option d'envoi et le text à envoyer
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to: 'nickandon07.com',
