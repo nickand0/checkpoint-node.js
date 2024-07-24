@@ -54,7 +54,7 @@ Le serveur commence à écouter les requêtes sur le port 3000 de l'hôte local 
     
 Une fois que le serveur est en cours d'exécution, un message est affiché dans la console indiquant l'URL à laquelle le serveur est accessible.
 
--Ouvrez votre navigateur web et accédez à l'URL suivante :
+-accédez à l'URL suivante :
     
     ```http://localhost:3000```
 
@@ -139,15 +139,15 @@ Créez une fonction qui génère des mots de passe aléatoires et console.log() 
 
 **REPONSE :**
 
-- Initialisez un nouveau projet Node.js :
+- Initialisation d'un nouveau projet Node.js :
     ```bash
     npm init -y
     ```
-- Installez le module `generate-password` :
+- Installation du module `generate-password` :
     ```bash
     npm install generate-password
     ```
-- Créez un fichier `passwordGenerator.js`:
+- Création d' un fichier `passwordGenerator.js`:
 
   **Importation du module `generate-password`** :
     ```javascript
@@ -194,15 +194,15 @@ Créer un fichier nommé e-expéditeur d'e-mail:
 npm install nodemailer (https://www.w3schools.com/nodejs/nodejs_email.asp).
 Essayez d'envoyer votre propre e-mail en utilisant ce**
 
-- Initialisez un nouveau projet Node.js :
+- Initialisation d' un nouveau projet Node.js :
     ```bash
     npm init -y
     ```
-- Installez le module `nodemailer` :
+- Installation du module `nodemailer` :
     ```bash
     npm install nodemailer
     ```
-- Installer le module `dontev`:
+- Installation du module `dontev`:
 ```bash
     npm install dontev
 ```
